@@ -2,7 +2,7 @@ name: send messages in telegram
 
 on:
   schedule:
-    - cron: '0-59/5 * * * *' # every 5 minutes
+    - cron: '12 12 12 12 *'
 
 jobs:
   build:
